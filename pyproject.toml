@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soig"
+version = "0.1.0"
+description = "A CLI tool to generate synthetic text images"
+dependencies = [
+    "Pillow",
+    "numpy",
+    "tqdm"
+]
+
+[project.scripts]
+soig = "soig.cli:main"
