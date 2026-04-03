@@ -12,3 +12,6 @@
 <img width="359" height="51" alt="bodo_000939" src="https://github.com/user-attachments/assets/82e2559a-c9b2-4fcc-94e9-02e2ebcfbe54" />
 <img width="355" height="52" alt="bodo_001154" src="https://github.com/user-attachments/assets/2fa9eb14-605f-4340-9327-c9999a5f6304" />
 <img width="252" height="48" alt="bodo_001279" src="https://github.com/user-attachments/assets/6c0fd0be-b166-4f22-bb1f-7d9aeaaeb7ac" />
+
+# Support
+Latin, Devangari, Japanese, Arbic, Chinese. 
