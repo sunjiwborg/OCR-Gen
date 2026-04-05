@@ -3,14 +3,15 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "soig"
-version = "0.1.0"
-description = "A CLI tool to generate synthetic text images"
+name = "ocrgen"
+version = "1.1.0"
+description = "Synthetic text image generator for OCR training"
 dependencies = [
-    "Pillow",
-    "numpy",
-    "tqdm"
+    "Pillow>=10.0.0",
+    "numpy>=1.20.0",
+    "tqdm>=4.60.0"
 ]
+requires-python = ">=3.8"
 
 [project.scripts]
-soig = "soig.cli:main"
+ocrgen = "ocrgen.main:main"
