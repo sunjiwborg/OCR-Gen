@@ -14,8 +14,8 @@ def get_font(args):
         font_size = random.randint(args.rpt[0], args.rpt[1])
 
     font_path = args.font
-    if args.font_dir:
-        font_files = glob.glob(os.path.join(args.font_dir, "*.[to]tf"))
+    if args.fonts_dir:
+        font_files = glob.glob(os.path.join(args.fonts_dir, "*.[to]tf"))
         if font_files:
             font_path = random.choice(font_files)
     
